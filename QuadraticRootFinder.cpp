@@ -20,6 +20,6 @@ int main()
  }if (d < 0){
      d *= -1;
      b *= -1;
-     std::cout << "The complex roots of this equation are \nx = (" << b << " + " << d << " i) / ( "<< 4*a << " ) and \nx = (" << b << " - " << d << " i) / ( "<< 4*a << " )";
+     std::cout << "The complex roots of this equation are \nx = (" << b << " + " << d << " i) / ( "<< 2*a << " ) and \nx = (" << b << " - " << d << " i) / ( "<< 2*a << " )";
  }
 }
